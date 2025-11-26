@@ -1,0 +1,17 @@
+# Node.js dependencies
+/node_modules
+
+# Build artifacts
+/out/
+/dist/
+
+# VS Code specific files
+.vscode/
+*.vsix
+.DS_Store # macOS specific
+
+# Local configuration
+.env
+.env.*
+
+ref/
