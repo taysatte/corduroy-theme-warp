@@ -41,7 +41,7 @@
 
 ## 🎨 Gallery
 
-<!-- ![Screen](./assets/screens/screen.png) -->
+![Screen](./assets/screens/screen.png)
 
 ---
 
@@ -49,6 +49,6 @@
 
 **Made with ☕️ and 🧵 by [Taylor Sattenfield](https://github.com/taysatte)**
 
-[⭐ Star this repo](https://github.com/taysatte/corduroy-theme-vscode) • [🐛 Report Bug](https://github.com/taysatte/corduroy-theme-vscode/issues) • [💡 Request Feature](https://github.com/taysatte/corduroy-theme-vscode/issues)
+[⭐ Star this repo](https://github.com/taysatte/corduroy-theme-warp) • [🐛 Report Bug](https://github.com/taysatte/corduroy-theme-warp/issues) • [💡 Request Feature](https://github.com/taysatte/corduroy-theme-warp/issues)
 
 </div>
