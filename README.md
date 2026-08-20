@@ -21,6 +21,8 @@
 
 ## 📦 Installation
 
+### macOS
+
 1. Create the themes directory if it doesn't already exist:
 
    ```bash
@@ -33,11 +35,30 @@
    cd ~/.warp/themes && git clone https://github.com/taysatte/corduroy-theme-warp
    ```
 
-3. Open Warp > Settings > Appearance > Themes, scroll all the way down to see the new Corduroy theme.
+### Windows
+
+1. Create the themes directory if it doesn't already exist:
+
+   ```powershell
+   New-Item -Path "$env:APPDATA\warp\Warp\data\themes" -ItemType Directory -Force
+   ```
+
+2. Navigate to the themes directory and clone the repository:
+
+   ```powershell
+   cd $env:APPDATA\warp\Warp\data\themes
+   git clone https://github.com/taysatte/corduroy-theme-warp
+   ```
+
+   Themes live at `%APPDATA%\warp\Warp\data\themes\` (typically `C:\Users\<you>\AppData\Roaming\warp\Warp\data\themes\`).
+
+### Finish setup
+
+3. Open Warp > Settings > Appearance > Themes, scroll all the way down to see Corduroy and Corduroy Dark.
 
 4. You might need to restart Warp for it to register the new theme as per the documentation.
 
-   > **Note:** It may take several minutes for Warp to initially discover the new config directory. You can either wait or just restart the application. After that step, all future changes to `~/.warp/themes` directory will be reflected in Warp within seconds.
+   > **Note:** It may take several minutes for Warp to initially discover the new config directory. You can either wait or just restart the application. After that step, all future changes to the themes directory will be reflected in Warp within seconds.
 
 ## 🎨 Gallery
 
